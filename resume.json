@@ -6,7 +6,7 @@
         "email": "martin.sloan@karma-tek.com",
         "phone": "(202) 805-5054",
         "website": "http://karma-tek.com",
-        "summary": "Martin is a dedicated, expert level Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API's.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1",
+        "summary": "Martin is a dedicated, subject matter expert level Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API's.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1",
         "location": {
             "address": "23234 Wrathall Drive",
             "postalCode": "VA 20148",
@@ -147,6 +147,7 @@
             "level": "Professional",
             "keywords": [
                 "Laravel Homestead",
+                "Laravel Forge",
                 "Composer",
                 "Artisan",
                 "npm",
