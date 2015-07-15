@@ -1,0 +1,223 @@
+{
+    "basics": {
+        "name": "Martin Sloan",
+        "label": "Unified Communications Engineer Full Stack Laravel Developer",
+        "picture": "",
+        "email": "martin.sloan@karma-tek.com",
+        "phone": "(202) 805-5054",
+        "website": "http://karma-tek.com",
+        "summary": "Martin is a dedicated, expert level Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API's.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1",
+        "location": {
+            "address": "23234 Wrathall Drive",
+            "postalCode": "VA 20148",
+            "city": "Ashburn",
+            "countryCode": "US",
+            "region": "Washington DC Metro Area"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Martin Sloan",
+                "url": "https://www.linkedin.com/pub/martin-sloan/9/232/137"
+            },
+            {
+                "network": "GitHub",
+                "username": "sloan58",
+                "url": "https://github.com/sloan58"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Karma-Tek Consulting",
+            "position": "Unified Communication Engineer Full-Stack Laravel Developer",
+            "website": "http://karma-tek.com",
+            "startDate": "2012-01-01",
+            "endDate": "2012-01-01",
+            "summary": "Unified Communications expert specializing in programatic automation, integration and management tools",
+            "highlights": [
+                "Develop custom integration tools using modern MVC frameworks such as Laravel.",
+                "Tool sets are in use today over mutiple CUCM mega clusters",
+                "Use of open source telephony platforms like Asterisk and FreeSWITCH"
+            ]
+        },
+        {
+            "company": "Orange Business Services",
+            "position": "Senior Unified Communication Engineer",
+            "website": "http://www.orange-business.com",
+            "startDate": "2011-03-01",
+            "endDate": "2013-01-01",
+            "summary": "Deployment lead for a global communications system supporting 20k+ users.",
+            "highlights": [
+                "Deployed headquarters CUCM mega cluster ecosystem.",
+                "Developed custom tool sets for automation, reporting and testing.",
+                "Worked on both implementation and design teams."
+            ]
+        },
+        {
+            "company": "Presidio Networked Solutions",
+            "position": "Senior NOC Engineer",
+            "website": "http://www.presidio.com",
+            "startDate": "2008-03-01",
+            "endDate": "2011-03-01",
+            "summary": "Team leader of Unified Communications support branch.",
+            "highlights": [
+                "Support of global unified communications systems on a 24x7x365 basis.",
+                "Escalation point for technical and customer satisfaction problem resolution.",
+                "Direct hand off of Severity 1, network down situations."
+            ]
+        },
+        {
+            "company": "Bozzuto Management Company",
+            "position": "Lead Deployment Technician",
+            "website": "http://www.bozzuto.com/",
+            "startDate": "2006-11-01",
+            "endDate": "2008-03-01",
+            "summary": "Design, implement and support 100+ satellite offices.",
+            "highlights": [
+                "Implement Windows workgroup and domain networks.",
+                "Deploy and configure Netgear routers and switches.",
+                "Support all facets of application and network trouble ticket requests.",
+                "90% local travel with minimal direct supervision."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Mount Aloysious College",
+            "area": "Cresson, Pa",
+            "studyType": "Bachelor",
+            "startDate": "1998-09-01",
+            "endDate": "2001-12-01",
+            "courses": [
+                "CS104B - Visual Basic",
+                "CS120  - Introduction to Networking",
+                "CS228  - Client/Server Operating Systems",
+                "CS205A - Integrated Business Applications",
+                "CS226  - CS System Design",
+                "CS206B - Database Management Systems"
+            ]
+        },
+        {
+            "institution": "Certifications",
+            "startDate": "2007-09-01",
+            "endDate": "2001-12-01",
+            "courses": [
+                "Cisco Certified Internetwork Expert - #41076",
+                "Cisco Certified Design Associate",
+                "ITL-Foundations",
+                "A+ Hardware/OS",
+                "CS226  - CS System Design",
+                "CS206B - Database Management Systems"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Digital Compression Pioneer Award",
+            "date": "2014-11-01",
+            "awarder": "Techcrunch",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Video compression for 3d media",
+            "publisher": "Hooli",
+            "releaseDate": "2014-10-01",
+            "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+            "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Professional",
+            "keywords": [
+                "PHP",
+                "Javascript - jQuery & MEAN Stack",
+                "Perl",
+                "SQL",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Web Development (Tools)",
+            "level": "Professional",
+            "keywords": [
+                "Laravel Homestead",
+                "Composer",
+                "Artisan",
+                "npm",
+                "bower",
+                "gulp",
+                "SequelPro/MySQL Workbench/RoboMongo"
+            ]
+        },
+        {
+            "name": "Unified Communications",
+            "level": "Expert",
+            "keywords": [
+                "Cisco Unified Communications",
+                "Asterisk",
+                "IVR",
+                "Auto-Dialer",
+                "SIP",
+                "MGCP",
+                "H323"
+            ]
+        },
+        {
+            "name": "Operating Systems",
+            "level": "Professional",
+            "keywords": [
+                "Linux (Ubuntu/Red Hat)",
+                "OSX",
+                "Windows"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Family",
+            "keywords": [
+                "Wife",
+                "2 Daughters"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Les Paul",
+                "Stratocaster"
+            ]
+        },
+        {
+            "name": "Mountain Biking",
+            "keywords": [
+                "Trek Superfly",
+                "Fully Rigid Single Speed"
+            ]
+        },
+        {
+            "name": "Beer",
+            "keywords": [
+                "IPA",
+                "Anything new and exciting!"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Erlich Bachman",
+            "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+        }
+    ]
+}
