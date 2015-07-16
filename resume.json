@@ -1,18 +1,18 @@
 {
     "basics": {
         "name": "Martin Sloan",
-        "label": "Unified Communications Engineer Full Stack Laravel Developer",
+        "label": "Unified Communications Engineer | Full Stack Laravel Developer",
         "picture": "",
         "email": "martin.sloan@karma-tek.com",
         "phone": "(202) 805-5054",
         "website": "http://karma-tek.com",
-        "summary": "Martin is a dedicated, subject matter expert level Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API's.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1",
+        "summary": "Martin is a dedicated, subject matter expert Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API's.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1",
         "location": {
             "address": "23234 Wrathall Drive",
-            "postalCode": "VA 20148",
-            "city": "Ashburn",
+            "postalCode": "20148",
+            "city": "Ashburn, Va",
             "countryCode": "US",
-            "region": "Washington DC Metro Area"
+            "region": "20148"
         },
         "profiles": [
             {
@@ -30,10 +30,10 @@
     "work": [
         {
             "company": "Karma-Tek Consulting",
-            "position": "Unified Communication Engineer Full-Stack Laravel Developer",
+            "position": "Unified Communication Engineer & Full-Stack Laravel Developer",
             "website": "http://karma-tek.com",
             "startDate": "2012-01-01",
-            "endDate": "2012-01-01",
+            "endDate": "2015-07-01",
             "summary": "Unified Communications expert specializing in programatic automation, integration and management tools",
             "highlights": [
                 "Develop custom integration tools using modern MVC frameworks such as Laravel.",
@@ -86,7 +86,7 @@
         {
             "institution": "Mount Aloysious College",
             "area": "Cresson, Pa",
-            "studyType": "Bachelor",
+            "studyType": "Main Campus",
             "startDate": "1998-09-01",
             "endDate": "2001-12-01",
             "courses": [
@@ -99,40 +99,29 @@
             ]
         },
         {
-            "institution": "Certifications",
+            "institution": "Cisco",
+            "area": "Certifications",
+            "studyType": "and others",
             "startDate": "2007-09-01",
-            "endDate": "2001-12-01",
+            "endDate": "2015-07-01",
             "courses": [
                 "Cisco Certified Internetwork Expert - #41076",
                 "Cisco Certified Design Associate",
                 "ITL-Foundations",
-                "A+ Hardware/OS",
-                "CS226  - CS System Design",
-                "CS206B - Database Management Systems"
-            ]
+                "A+ Hardware/OS"
+                ]
         }
     ],
     "awards": [
-        {
-            "title": "Digital Compression Pioneer Award",
-            "date": "2014-11-01",
-            "awarder": "Techcrunch",
-            "summary": "There is no spoon."
-        }
+        
     ],
     "publications": [
-        {
-            "name": "Video compression for 3d media",
-            "publisher": "Hooli",
-            "releaseDate": "2014-10-01",
-            "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-            "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-        }
+        
     ],
     "skills": [
         {
             "name": "Web Development",
-            "level": "Professional",
+            "level": "Languages",
             "keywords": [
                 "PHP",
                 "Javascript - jQuery & MEAN Stack",
@@ -143,12 +132,13 @@
             ]
         },
         {
-            "name": "Web Development (Tools)",
-            "level": "Professional",
+            "name": "Web Development",
+            "level": "Tools",
             "keywords": [
                 "Laravel Homestead",
                 "Laravel Forge",
                 "Composer",
+                "Packagist.org",
                 "Artisan",
                 "npm",
                 "bower",
@@ -157,8 +147,17 @@
             ]
         },
         {
+            "name": "Web Development",
+            "level": "Editors",
+            "keywords": [
+                "PHP Storm",
+                "Sublime Text",
+                "nano"
+            ]
+        },
+        {
             "name": "Unified Communications",
-            "level": "Expert",
+            "level": "CCIE #41076",
             "keywords": [
                 "Cisco Unified Communications",
                 "Asterisk",
@@ -171,7 +170,7 @@
         },
         {
             "name": "Operating Systems",
-            "level": "Professional",
+            "level": "Desktop/Server",
             "keywords": [
                 "Linux (Ubuntu/Red Hat)",
                 "OSX",
@@ -180,19 +179,9 @@
         }
     ],
     "languages": [
-        {
-            "language": "English",
-            "fluency": "Native speaker"
-        }
+
     ],
     "interests": [
-        {
-            "name": "Family",
-            "keywords": [
-                "Wife",
-                "2 Daughters"
-            ]
-        },
         {
             "name": "Music",
             "keywords": [
@@ -206,19 +195,9 @@
                 "Trek Superfly",
                 "Fully Rigid Single Speed"
             ]
-        },
-        {
-            "name": "Beer",
-            "keywords": [
-                "IPA",
-                "Anything new and exciting!"
-            ]
         }
     ],
     "references": [
-        {
-            "name": "Erlich Bachman",
-            "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-        }
+        
     ]
 }

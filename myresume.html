@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Martin Sloan</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- link rel="shortcut icon" href="favicon.ico" / -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
     <style>
-      .relative {
-  position: relative;
-}
-.clear-margin {
+      .clear-margin {
   margin: 0;
 }
 .space-top {
@@ -45,580 +42,337 @@
 .link-disguise:hover {
   color: inherit;
 }
-.clear-margin {
-  margin: 0;
-}
 @media (max-width: 992px) {
   .clear-margin-sm {
     margin-bottom: 0;
   }
 }
 body {
-  font-family: 'Lato';
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #f0f0f0;
   color: #333333;
-}
-.main {
-  padding: 5px;
-}
-.card {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  min-height: 300px;
-  padding: 10px;
-}
-.card-nested {
-  min-height: 0;
-  margin-bottom: 10px;
-  border-width: 1px 0 0 0;
-}
-.card-nested:before,
-.card-nested:after {
-  content: " ";
-  display: table;
-}
-.card-nested:after {
-  clear: both;
-}
-@media (max-width: 480px) {
-  .card-nested {
-    padding: 5px 0;
-  }
-}
-.background-card {
-  padding: 10px 20px;
-}
-.card-wrapper {
-  padding: 5px;
-}
-@media (max-width: 992px) {
-  .card-wrapper {
-    float: none !important;
-  }
+  font-size: 16px;
 }
 .text-bolder {
   font-weight: bold;
 }
-.background-details .detail {
-  display: table;
-  padding: 10px 0;
-}
-.background-details .detail .icon {
-  min-width: 45px;
-  max-width: 45px;
-  text-align: center;
-}
-.background-details .detail .info {
-  width: 100%;
-}
-.background-details .detail .title,
-.background-details .detail .icon {
-  color: #707070;
-}
-.background-details .detail .mobile-title {
-  display: none;
-}
-@media (max-width: 480px) {
-  .background-details .detail .mobile-title {
-    display: inline-block;
-    margin-left: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    vertical-align: middle;
+@media only screen {
+  .container {
+    max-width: 50em;
   }
-}
-.background-details .detail .icon,
-.background-details .detail .info {
-  display: table-cell;
-  padding: 0 10px;
-}
-@media (max-width: 480px) {
-  .background-details .detail {
-    display: block;
-  }
-  .background-details .detail .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .detail .icon,
-  .background-details .detail .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .detail .title {
-    display: none;
-  }
-}
-.info .content.has-sidebar {
-  width: 80%;
-  box-sizing: border-box;
-  float: left;
-  padding: 0 10px;
-  border-right: 1px solid #cdcdcd;
-}
-@media (max-width: 992px) {
-  .info .content.has-sidebar {
-    width: 100%;
-    border-right: 0;
-  }
-}
-@media (max-width: 480px) {
-  .info .content.has-sidebar {
-    padding: 0 2px;
-  }
-}
-.info .sidebar {
-  margin-left: 80%;
-  box-sizing: border-box;
-  padding: 10px;
 }
 @media (max-width: 480px) {
   ul {
     padding-left: 25px;
   }
-}
-.current-event {
-  font-size: 8px;
-  color: #5ACE24;
-  position: absolute;
-  right: 100%;
-  top: 4px;
-  left: -10px;
-}
-/*
-    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+  /*
+        .mobile-title {
+            display: inline-block;
+            margin-left: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
 */
-.floating-nav-trigger {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  -webkit-transition: background-color 0.5s ease;
-  -o-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
-  padding-top: 10px;
-  background-color: white;
-  font-size: 1.5em;
-  color: #357ebd;
-  z-index: 100;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-.floating-nav-trigger .close-icon {
-  display: none;
-}
-.floating-nav-trigger:hover {
-  color: #1f496e;
-  background-color: #e6e6e6;
-  text-decoration: none;
-}
-.floating-nav-trigger.is-open {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.floating-nav-trigger.is-open .close-icon {
-  display: inherit;
-}
-.floating-nav-trigger.is-open .fa-bars {
-  display: none;
-}
-.floating-nav-trigger.is-open:hover {
-  background-color: white;
-}
-.floating-nav {
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-  -o-transition: transform 0.3s, visibility 0s 0.3s;
-  transition: transform 0.3s, visibility 0s 0.3s;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-  position: fixed;
-  z-index: 50;
-  right: 10px;
-  bottom: 10px;
-  background-color: white;
-  width: 90%;
-  max-width: 400px;
-  visibility: hidden;
-  overflow: hidden;
-}
-.floating-nav ul {
-  font-size: 1.2em;
-  margin: 0;
-}
-.floating-nav ul li {
-  border-bottom: 1px solid #eff2f6;
-}
-.floating-nav ul li a {
-  padding: 20px;
-  text-decoration: none;
-  color: #357ebd;
-  display: block;
-}
-.floating-nav ul li a:hover {
-  color: #1f496e;
-}
-.floating-nav ul li i.fa {
-  margin-right: 10px;
-}
-.floating-nav ul li:last-child {
-  border-bottom: 0;
-}
-.floating-nav.is-visible {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: transform 0.3s, visibility 0s 0s;
-  -o-transition: transform 0.3s, visibility 0s 0s;
-  transition: transform 0.3s, visibility 0s 0s;
-  visibility: visible;
-}
-@media (max-width: 992px) {
-  .profile-card-wrapper {
-    position: relative;
+  .background-details {
+    display: block;
   }
-}
-.profile-pic {
-  padding: 20px 0;
-}
-@media (max-width: 992px) {
-  .profile-pic {
+  .background-details .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .icon,
+  .background-details .info {
+    display: block;
     padding: 10px 0;
   }
+  .background-details .title {
+    display: none;
+  }
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.profile-card {
+  display: table;
+  width: 100%;
+}
+.profile-pic {
+  display: table-cell;
+  vertical-align: top;
+  padding: 1rem 4rem 0 0 ;
 }
 .profile-pic img {
   width: 100px;
   height: 100px;
 }
-@media (max-width: 992px) {
-  .name {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .contact-details {
-    text-align: center;
-  }
+.contact-details {
+  display: table-cell;
 }
 .contact-details .detail {
-  display: table;
-  padding: 10px 0;
+  display: inline-block;
+  line-height: 2;
+  margin-right: 2rem;
 }
 .contact-details .detail .icon {
-  padding: 0 10px;
-  color: #707070;
-}
-@media (max-width: 992px) {
-  .contact-details .detail .icon {
-    padding: 0 5px 0 0;
-  }
+  padding-right: 7px;
+  color: #888;
 }
 .contact-details .detail .info {
   font-size: 0.8em;
-}
-.contact-details .detail .icon,
-.contact-details .detail .info {
-  display: table-cell;
-  vertical-align: middle;
-}
-@media (max-width: 768px) {
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media (max-width: 992px) {
-  .contact-details .detail {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 10px;
-  }
-  .contact-details .detail .icon,
-  .contact-details .detail .info {
-    display: inline-block;
-  }
-}
-@media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 25%;
-  }
 }
 .social-links {
   line-height: 2.5;
 }
 .social-link {
-  margin-left: 5px;
-  min-width: 35px;
+  display: block;
+}
+.social-link span {
   display: inline-block;
+  vertical-align: middle;
 }
-.social-link:first-child {
-  margin-left: 0;
-}
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   text-decoration: none;
 }
-.link-github {
+.social-link .fa {
+  text-align: center;
+  width: 2em;
+}
+.fa-github {
   color: #454545;
 }
-.link-github:hover,
-.link-github:focus {
+.fa-github:hover,
+.fa-github:focus {
   text-decoration: none;
   color: #2b2b2b;
 }
-.link-twitter {
+.fa-twitter {
   color: #33ccff;
 }
-.link-twitter:hover,
-.link-twitter:focus {
+.fa-twitter:hover,
+.fa-twitter:focus {
   text-decoration: none;
   color: #00bfff;
 }
-.link-blog {
+.fa-rss {
   color: #f36f24;
 }
-.link-blog:hover,
-.link-blog:focus {
+.fa-rss:hover,
+.fa-rss:focus {
   text-decoration: none;
   color: #d8560c;
 }
-.link-linkedin {
+.fa-linkedin {
   color: #007bb6;
 }
-.link-linkedin:hover,
-.link-linkedin:focus {
+.fa-linkedin:hover,
+.fa-linkedin:focus {
   text-decoration: none;
   color: #005983;
 }
-.link-skype {
+.fa-skype {
   color: #12a5f4;
 }
-.link-skype:hover,
-.link-skype:focus {
+.fa-skype:hover,
+.fa-skype:focus {
   text-decoration: none;
   color: #0986ca;
 }
-.link-instagram {
-  color: #3f729b;
-}
-.link-instagram:hover,
-.link-instagram:focus {
-  text-decoration: none;
-  color: #305777;
-}
-.link-stackoverflow {
+.fa-stack-overflow {
   color: #8e8e92;
 }
-.link-stackoverflow:hover,
-.link-stackoverflow:focus {
+.fa-stack-overflow:hover,
+.fa-stack-overflow:focus {
   text-decoration: none;
   color: #747479;
 }
-.link-stackexchange {
-  color: #62b0df;
-}
-.link-stackexchange:hover,
-.link-stackexchange:focus {
-  text-decoration: none;
-  color: #389bd6;
-}
-.link-lastfm {
-  color: #d12127;
-}
-.link-lastfm:hover,
-.link-lastfm:focus {
-  text-decoration: none;
-  color: #a51a1f;
-}
-.link-soundcloud {
+.fa-soundcloud {
   color: #e8822d;
 }
-.link-soundcloud:hover,
-.link-soundcloud:focus {
+.fa-soundcloud:hover,
+.fa-soundcloud:focus {
   text-decoration: none;
   color: #cc6916;
 }
-.link-googleplus {
-  color: #dd4b39;
-}
-.link-googleplus:hover,
-.link-googleplus:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-youtube {
-  color: #dd4b39;
-}
-.link-youtube:hover,
-.link-youtube:focus {
-  text-decoration: none;
-  color: #c23321;
-}
-.link-pinterest {
+.fa-pinterest {
   color: #bd091f;
 }
-.link-pinterest:hover,
-.link-pinterest:focus {
+.fa-pinterest:hover,
+.fa-pinterest:focus {
   text-decoration: none;
   color: #8c0717;
 }
-.link-gratipay {
-  color: #663300;
-}
-.link-gratipay:hover,
-.link-gratipay:focus {
-  text-decoration: none;
-  color: #331a00;
-}
-.link-vimeo {
+.fa-vimeo {
   color: #17b3e8;
 }
-.link-vimeo:hover,
-.link-vimeo:focus {
+.fa-vimeo:hover,
+.fa-vimeo:focus {
   text-decoration: none;
   color: #128fba;
 }
-.link-behance {
+.fa-behance {
   color: #2c98cf;
 }
-.link-behance:hover,
-.link-behance:focus {
+.fa-behance:hover,
+.fa-behance:focus {
   text-decoration: none;
   color: #2379a5;
 }
-.link-codepen {
+.fa-codepen {
   color: #1c1c1c;
 }
-.link-codepen:hover,
-.link-codepen:focus {
+.fa-codepen:hover,
+.fa-codepen:focus {
   text-decoration: none;
   color: #020202;
 }
-.link-foursquare {
+.fa-foursquare {
   color: #fa4778;
 }
-.link-foursquare:hover,
-.link-foursquare:focus {
+.fa-foursquare:hover,
+.fa-foursquare:focus {
   text-decoration: none;
   color: #f91554;
 }
-.link-reddit {
+.fa-reddit {
   color: #545454;
 }
-.link-reddit:hover,
-.link-reddit:focus {
+.fa-reddit:hover,
+.fa-reddit:focus {
   text-decoration: none;
   color: #3b3b3b;
 }
-.link-spotify {
+.fa-spotify {
   color: #acd200;
 }
-.link-spotify:hover,
-.link-spotify:focus {
+.fa-spotify:hover,
+.fa-spotify:focus {
   text-decoration: none;
   color: #829f00;
 }
-.link-tumblr {
-  color: #2d4661;
-}
-.link-tumblr:hover,
-.link-tumblr:focus {
-  text-decoration: none;
-  color: #1d2d3e;
-}
-.link-dribbble {
+.fa-dribbble {
   color: #ce366f;
 }
-.link-dribbble:hover,
-.link-dribbble:focus {
+.fa-dribbble:hover,
+.fa-dribbble:focus {
   text-decoration: none;
   color: #a82959;
 }
-.link-facebook {
+.fa-facebook {
   color: #4b6daa;
 }
-.link-facebook:hover,
-.link-facebook:focus {
+.fa-facebook:hover,
+.fa-facebook:focus {
   text-decoration: none;
   color: #3b5687;
 }
-.link-angellist {
+.fa-angellist {
   color: #000000;
 }
-.link-angellist:hover,
-.link-angellist:focus {
+.fa-angellist:hover,
+.fa-angellist:focus {
   text-decoration: none;
   color: #000000;
 }
-.link-bitbucket {
+.fa-bitbucket {
   color: #205081;
 }
-.link-bitbucket:hover,
-.link-bitbucket:focus {
+.fa-bitbucket:hover,
+.fa-bitbucket:focus {
   text-decoration: none;
   color: #163758;
+}
+.fa-google-plus {
+  color: #bf2a1d;
+}
+.fa-google-plus:hover,
+.fa-google-plus:focus {
+  text-decoration: none;
+  color: #932016;
+}
+.background-card h4 {
+  font-variant: small-caps;
+  color: #777777;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2;
+}
+.background-card h4:not(:first-child) {
+  margin-top: 2em;
+}
+h4 > .fa,
+h4 > .title {
+  display: inline-block;
+  vertical-align: baseline;
+}
+h4 > .fa {
+  width: 4rem;
+}
+.content {
+  line-height: 1.5;
+}
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 2em 3.5em;
+}
+.card-nested {
+  padding: 1.5rem 0 1.5rem 4.2rem;
+}
+.card-wrapper {
+  padding: 5px;
+}
+.enumeration:not(:last-child):after {
+  content: ", ";
+}
+.enumeration:last-child:after {
+  content: ".";
+}
+@media only screen and (max-width: 768px) {
+  .profile-card {
+    display: block;
+  }
+  .contact-details,
+  .profile-pic {
+    display: block;
+    text-align: center;
+  }
+  .card-nested {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact-details .detail {
+    display: block;
+  }
 }
 .card-skills {
   position: relative;
 }
-.skill-level {
-  border-radius: 3px;
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-}
-.skill-level .skill-progress {
-  position: absolute;
-  border-radius: 3px;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: height 1s ease;
-}
-.skill-level .skill-progress.beginner {
-  height: 50%;
-  background: #e74c3c;
-}
-.skill-level .skill-progress.intermediate {
-  height: 70%;
-  background: #f1c40f;
-}
-.skill-level .skill-progress.advanced {
-  height: 80%;
-  background: #428bca;
-}
-.skill-level .skill-progress.master {
-  height: 95%;
-  background: #5cb85c;
-}
 .skill-info {
-  margin-left: 10px;
+  margin-left: 20px;
 }
-@media (max-width: 480px) {
-  .skill-info {
-    margin-left: 20px;
+@media only screen and (min-width: 768px) {
+  .skill {
+    border-left: 9px solid #555555;
+  }
+  .skill.beginner {
+    height: 50%;
+    border-color: #e74c3c;
+  }
+  .skill.intermediate {
+    height: 70%;
+    border-color: #f1c40f;
+  }
+  .skill.advanced {
+    border-color: #5cb85c;
+  }
+  .skill.master {
+    border-color: black;
   }
 }
 @media (max-width: 768px) {
@@ -627,39 +381,48 @@ body {
   }
 }
 @media print {
+  body {
+    font-size: 10pt;
+  }
   a[href]:after {
     content: none !important;
   }
-  .profile-card {
-    text-align: center;
-  }
-  .profile-pic {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .profile-pic img {
-    border-radius: 0;
-  }
-  .name-and-profession {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px;
-  }
-  .contact-details .detail {
-    position: relative;
-    float: left;
-    width: 25%;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 0;
-  }
-  .floating-nav,
-  .floating-nav-trigger {
-    display: none;
-  }
   .pagebreak {
     page-break-before: always;
+  }
+  .background-card h4:not(:first-child) {
+    margin-top: 0 !important;
+  }
+  .card {
+    border: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .contact-details .detail .icon {
+    color: #888 !important;
+  }
+  .background-card h4 {
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 1em !important;
+  }
+  h4 > .fa {
+    display: none !important;
+  }
+  .card-nested {
+    padding: .5rem 0 .5rem 0;
+  }
+  .labels {
+    display: inline;
+  }
+  .skill-info {
+    margin-left: 0;
+  }
+  blockquote {
+    font-size: 100%;
   }
 }
 
@@ -667,508 +430,269 @@ body {
   </head>
 
   <body itemscope itemtype="http://schema.org/Person">
-    <script>
-      window.onload = function () {
-        var toggleFloatingMenu = function() {
-          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
-          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
-        };
-
-        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
-        $( "[rel=tooltip]" ).tooltip();
-        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
-          e.preventDefault();
-          toggleFloatingMenu();
-        });
-        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
-      }
-    </script>
-    <div class="container-fluid">
-      <div class="row main clearfix">
-        <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
-          <i class="fa fa-bars"></i>
-          <span class="close-icon">&times;</span>
-        </a>
-        <nav class="floating-nav js-floating-nav">
-          <ul class="list-unstyled">
-            <li>
-              <a href="#about">
-                <i class="fa fa-user"></i>
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#work-experience">
-                <i class="fa fa-building"></i>
-                Work Experience
-              </a>
-            </li>
-            <li>
-              <a href="#skills">
-                <i class="fa fa-code"></i>
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#education">
-                <i class="fa fa-mortar-board"></i>
-                Education
-              </a>
-            </li>
-              <li>
-                <a href="#awards">
-                  <i class="fa fa-trophy"></i>
-                  Awards
-                </a>
-              </li>
-              <li>
-                <a href="#publications">
-                  <i class="fa fa-book"></i>
-                  Publications
-                </a>
-              </li>
-              <li>
-                <a href="#interests">
-                  <i class="fa fa-heart"></i>
-                  Interests
-                </a>
-              </li>
-              <li>
-                <a href="#references">
-                  <i class="fa fa-thumbs-up"></i>
-                  References
-                </a>
-              </li>
-          </ul>
-        </nav>
-
-        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-          <div class="card profile-card">
-              <span class="profile-pic-container">
+    
+    <div class="container">
+      <section class="row">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="profile-card">
                 <div class="profile-pic">
                   <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
-                    alt="Martin Sloan" src="https://www.gravatar.com/avatar/f4a5dd68d465d84c39ec2b2da91c936f" itemprop="image">
+                    alt="Martin Sloan" src="http://www.gravatar.com/avatar/f4a5dd68d465d84c39ec2b2da91c936f?s=100&amp;r=pg&amp;d=mm" itemprop="image">
                 </div>
-
-                <div class="name-and-profession">
-                  <h3 class="text-center text-bolder name" itemprop="name"> Martin Sloan</h3>
-                  <h5 class="text-muted text-center" itemprop="jobTitle">Unified Communications Engineer Full Stack Laravel Developer</h5>
-                </div>
-              </span>
-              <hr>
-
-              <div class="contact-details clearfix">
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-location-arrow"></i>
-                    </span>
-                    <span class="info">
-                      Ashburn, Washington DC Metro Area, US
-                    </span>
+                <div class="contact-details">
+                  <div class="name-and-profession">
+                    <h3 class="text-bolder name" itemprop="name"> Martin Sloan</h3>
+                    <h5 class="text-muted" itemprop="jobTitle">Unified Communications Engineer | Full Stack Laravel Developer</h5>
                   </div>
 
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-phone"></i>
-                    </span>
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-envelope"></i>
+                      </span>
 
-                    <span class="info" itemprop="telephone">
-                      (202) 805-5054
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-envelope"></i>
-                    </span>
-
-                    <span class="info">
-                      <a href="/cdn-cgi/l/email-protection#89e4e8fbfde0e7a7fae5e6e8e7c9e2e8fbe4e8a4fdece2a7eae6e4" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="6f020e1d1b0601411c03000e012f040e1d020e421b0a04410c0002">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
+                      <span class="info">
+                        <a href="/cdn-cgi/l/email-protection#137e7261677a7d3d607f7c727d537872617e723e6776783d707c7e" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="4f222e3d3b2621613c23202e210f242e3d222e623b2a24612c2022">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a>
-                    </span>
-                  </div>
+                      </span>
+                    </div>
 
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-link"></i>
-                    </span>
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-phone"></i>
+                      </span>
 
-                    <span class="info">
-                      <a href="http://karma-tek.com" target="_blank">http://karma-tek.com</a>
-                    </span>
-                  </div>
+                      <a href="tel://(202) 805-5054" class="link-disguise info" itemprop="telephone">
+                        (202) 805-5054
+                      </a>
+                    </div>
 
-                  <div class="detail">
-                    <span class="icon" title="Languages I speak">
-                      <i class="fa fa-lg fa-language"></i>
-                    </span>
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-map-marker"></i>
+                      </span>
 
-                    <span class="info">
-                      English
-                    </span>
-                  </div>
-              </div>
+                        <span class="info">
+                          Ashburn, Va, 20148,
+                          US
+                        </span>
+                    </div>
 
-              <hr>
-
-              <div class="social-links text-center">
-                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
-                       href="https://www.linkedin.com/pub/martin-sloan/9/232/137" target="_blank"></a>
-                  <a class="fa fa-github fa-2x social-link link-github"
-                       href="//github.com/sloan58" target="_blank"></a>
-              </div>
-          </div>
-        </section>
-
-        <section class="col-md-9 card-wrapper pull-right">
-          <div class="card background-card">
-            <h4 class="text-uppercase text-bolder">Background</h4>
+                </div>
+                
+            </div>
             <hr>
 
-            <div class="background-details">
-              <div class="detail" id="about">
-                <div class="icon">
-                  <i class="fa fa-lg fa-user"></i>
-                  <span class="mobile-title">About</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    About
-                  </h4>
-
-                  <div class="content" itemprop="description">
-                    Martin is a dedicated, subject matter expert level Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API&#x27;s.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1
-                  </div>
-                </div>
-              </div>
-
-              <div class="detail" id="work-experience">
-                <div class="icon">
-                  <i class="fa fa-lg fa-building"></i>
-                  <span class="mobile-title">Work Experience</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    Work Experience
-                  </h4>
-
-                  <ul class="list-unstyled">
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Unified Communication Engineer Full-Stack Laravel Developer</strong>,&nbsp;
-                              <a href="http://karma-tek.com"  target="_blank">Karma-Tek Consulting</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Jan, 2012 -
-                                  Jan, 2012
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  0 day
-                                </span>
-                            </small>
-                          </p>
-                          <p>Unified Communications expert specializing in programatic automation, integration and management tools</p>
-                            <ul>
-                                <li> Develop custom integration tools using modern MVC frameworks such as Laravel. </li>
-                                <li> Tool sets are in use today over mutiple CUCM mega clusters </li>
-                                <li> Use of open source telephony platforms like Asterisk and FreeSWITCH </li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Senior Unified Communication Engineer</strong>,&nbsp;
-                              <a href="http://www.orange-business.com"  target="_blank">Orange Business Services</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Mar, 2011 -
-                                  Jan, 2013
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  1 year 10 months
-                                </span>
-                            </small>
-                          </p>
-                          <p>Deployment lead for a global communications system supporting 20k+ users.</p>
-                            <ul>
-                                <li> Deployed headquarters CUCM mega cluster ecosystem. </li>
-                                <li> Developed custom tool sets for automation, reporting and testing. </li>
-                                <li> Worked on both implementation and design teams. </li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Senior NOC Engineer</strong>,&nbsp;
-                              <a href="http://www.presidio.com"  target="_blank">Presidio Networked Solutions</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Mar, 2008 -
-                                  Mar, 2011
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  3 years
-                                </span>
-                            </small>
-                          </p>
-                          <p>Team leader of Unified Communications support branch.</p>
-                            <ul>
-                                <li> Support of global unified communications systems on a 24x7x365 basis. </li>
-                                <li> Escalation point for technical and customer satisfaction problem resolution. </li>
-                                <li> Direct hand off of Severity 1, network down situations. </li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Lead Deployment Technician</strong>,&nbsp;
-                              <a href="http://www.bozzuto.com/"  target="_blank">Bozzuto Management Company</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Nov, 2006 -
-                                  Mar, 2008
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  1 year 4 months
-                                </span>
-                            </small>
-                          </p>
-                          <p>Design, implement and support 100+ satellite offices.</p>
-                            <ul>
-                                <li> Implement Windows workgroup and domain networks. </li>
-                                <li> Deploy and configure Netgear routers and switches. </li>
-                                <li> Support all facets of application and network trouble ticket requests. </li>
-                                <li> 90% local travel with minimal direct supervision. </li>
-                            </ul>
-                        </div>
-                      </li>
-                  </ul>
-                </div>
-              </div>
-
-                <div class="detail" id="skills">
-                  <div class="icon">
-                    <i class="fa fa-lg fa-code"></i>
-                    <span class="mobile-title">Skills</span>
-                  </div>
-                  <div class="info">
-                    <h4 class="title text-uppercase">
-                      Skills
-                    </h4>
-
-                    <div class="content">
-                      <ul class="list-unstyled">
-                          <li class="card card-nested card-skills">
-                            <div class="skill-info">
-                              <strong>Web Development</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">PHP</span>
-                                  <span class="label label-keyword">Javascript - jQuery &amp; MEAN Stack</span>
-                                  <span class="label label-keyword">Perl</span>
-                                  <span class="label label-keyword">SQL</span>
-                                  <span class="label label-keyword">HTML</span>
-                                  <span class="label label-keyword">CSS</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                            <div class="skill-info">
-                              <strong>Web Development (Tools)</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Laravel Homestead</span>
-                                  <span class="label label-keyword">Laravel Forge</span>
-                                  <span class="label label-keyword">Composer</span>
-                                  <span class="label label-keyword">Artisan</span>
-                                  <span class="label label-keyword">npm</span>
-                                  <span class="label label-keyword">bower</span>
-                                  <span class="label label-keyword">gulp</span>
-                                  <span class="label label-keyword">SequelPro/MySQL Workbench/RoboMongo</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                            <div class="skill-info">
-                              <strong>Unified Communications</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Cisco Unified Communications</span>
-                                  <span class="label label-keyword">Asterisk</span>
-                                  <span class="label label-keyword">IVR</span>
-                                  <span class="label label-keyword">Auto-Dialer</span>
-                                  <span class="label label-keyword">SIP</span>
-                                  <span class="label label-keyword">MGCP</span>
-                                  <span class="label label-keyword">H323</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                            <div class="skill-info">
-                              <strong>Operating Systems</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Linux (Ubuntu/Red Hat)</span>
-                                  <span class="label label-keyword">OSX</span>
-                                  <span class="label label-keyword">Windows</span>
-                              </div>
-                            </div>
-                          </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-              <div class="detail" id="education">
-                <div class="icon">
-                  <i class="fa fa-lg fa-mortar-board"></i>
-                  <span class="mobile-title">Education</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    Education
-                  </h4>
-
-                  <div class="content">
-                    <ul class="list-unstyled">
-                        <li class="card card-nested">
-                          <div class="content">
-                            <p class="clear-margin relative">
-
-                              <strong>Cresson, Pa</strong>,&nbsp;
-                              Mount Aloysious College
-                            </p>
-                            <p class="text-muted">
-                              <small>
-                                Sep, 1998 -
-                                  Dec, 2001
-                              </small>
-                            </p>
-                            <i></i>
-                            <div class="space-top labels">
-                                <span class="label label-keyword">CS104B - Visual Basic</span>
-                                <span class="label label-keyword">CS120  - Introduction to Networking</span>
-                                <span class="label label-keyword">CS228  - Client/Server Operating Systems</span>
-                                <span class="label label-keyword">CS205A - Integrated Business Applications</span>
-                                <span class="label label-keyword">CS226  - CS System Design</span>
-                                <span class="label label-keyword">CS206B - Database Management Systems</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="card card-nested">
-                          <div class="content">
-                            <p class="clear-margin relative">
-                              Certifications
-                            </p>
-                            <p class="text-muted">
-                              <small>
-                                Sep, 2007 -
-                                  Dec, 2001
-                              </small>
-                            </p>
-                            <i></i>
-                            <div class="space-top labels">
-                                <span class="label label-keyword">Cisco Certified Internetwork Expert - #41076</span>
-                                <span class="label label-keyword">Cisco Certified Design Associate</span>
-                                <span class="label label-keyword">ITL-Foundations</span>
-                                <span class="label label-keyword">A+ Hardware/OS</span>
-                                <span class="label label-keyword">CS226  - CS System Design</span>
-                                <span class="label label-keyword">CS206B - Database Management Systems</span>
-                            </div>
-                          </div>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-                <div class="detail" id="interests">
-                  <div class="icon">
-                    <i class="fa fa-lg fa-heart"></i>
-                    <span class="mobile-title">Interests</span>
-                  </div>
-                  <div class="info">
-                    <h4 class="title text-uppercase">
-                      Interests
-                    </h4>
-
-                    <div class="content">
-                      <ul class="list-unstyled">
-                          <li class="card card-nested">
-                            <p>
-                              <strong>Family</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                                <span class="label label-keyword">Wife</span>
-                                <span class="label label-keyword">2 Daughters</span>
-                            </div>
-                          </li>
-                          <li class="card card-nested">
-                            <p>
-                              <strong>Music</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                                <span class="label label-keyword">Les Paul</span>
-                                <span class="label label-keyword">Stratocaster</span>
-                            </div>
-                          </li>
-                          <li class="card card-nested">
-                            <p>
-                              <strong>Mountain Biking</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                                <span class="label label-keyword">Trek Superfly</span>
-                                <span class="label label-keyword">Fully Rigid Single Speed</span>
-                            </div>
-                          </li>
-                          <li class="card card-nested">
-                            <p>
-                              <strong>Beer</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                                <span class="label label-keyword">IPA</span>
-                                <span class="label label-keyword">Anything new and exciting!</span>
-                            </div>
-                          </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
+            <div class="social-links">
+                <a class="social-link" href="https://www.linkedin.com/pub/martin-sloan/9/232/137" target="_blank">
+                  <span class="fa fa-linkedin fa-2x"></span> 
+                  <span class="social-link-text">https://www.linkedin.com/pub/martin-sloan/9/232/137</span>
+                </a>
+                <a class="social-link" href="https://github.com/sloan58" target="_blank">
+                  <span class="fa fa-github fa-2x"></span> 
+                  <span class="social-link-text">https://github.com/sloan58</span>
+                </a>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="card-wrapper">
+          <div class="card background-card">
+
+            <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
+            <div class="card-nested" itemprop="description">
+              <p> Martin is a dedicated, subject matter expert Unified Communications engineer and avid web application developer.  Before starting Karma-Tek Consulting, Martin worked for several Cisco Gold Partners where he gained valuable experience designing, implementing and supporting global enterprise communications systems.  During that time he self-started his web application career by learning modern MVC frameworks, including Laravel 4.2, in order to leverage the Unified Communications SOAP and RESTful API&#x27;s.  He is still writing custom applications for Cisco Partners, but is also pursuing further opportunities to expand and continue his growth in the application development space with a focus on Laravel 5.1 </p>
+            </div>
+
+            <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Unified Communication Engineer &amp; Full-Stack Laravel Developer</strong>,
+                      <a href="http://karma-tek.com" target="_blank">Karma-Tek Consulting</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Jan 2012 -  Jul 2015  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years 6 months </span> 
+                      </small>
+                    </p>
+                    <p>Unified Communications expert specializing in programatic automation, integration and management tools</p>
+                      <ul>
+                          <li> Develop custom integration tools using modern MVC frameworks such as Laravel. </li>
+                          <li> Tool sets are in use today over mutiple CUCM mega clusters </li>
+                          <li> Use of open source telephony platforms like Asterisk and FreeSWITCH </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Senior Unified Communication Engineer</strong>,
+                      <a href="http://www.orange-business.com" target="_blank">Orange Business Services</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Mar 2011 -  Jan 2013  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 10 months </span> 
+                      </small>
+                    </p>
+                    <p>Deployment lead for a global communications system supporting 20k+ users.</p>
+                      <ul>
+                          <li> Deployed headquarters CUCM mega cluster ecosystem. </li>
+                          <li> Developed custom tool sets for automation, reporting and testing. </li>
+                          <li> Worked on both implementation and design teams. </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Senior NOC Engineer</strong>,
+                      <a href="http://www.presidio.com" target="_blank">Presidio Networked Solutions</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Mar 2008 -  Mar 2011  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years </span> 
+                      </small>
+                    </p>
+                    <p>Team leader of Unified Communications support branch.</p>
+                      <ul>
+                          <li> Support of global unified communications systems on a 24x7x365 basis. </li>
+                          <li> Escalation point for technical and customer satisfaction problem resolution. </li>
+                          <li> Direct hand off of Severity 1, network down situations. </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Lead Deployment Technician</strong>,
+                      <a href="http://www.bozzuto.com/" target="_blank">Bozzuto Management Company</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Nov 2006 -  Mar 2008  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 4 months </span> 
+                      </small>
+                    </p>
+                    <p>Design, implement and support 100+ satellite offices.</p>
+                      <ul>
+                          <li> Implement Windows workgroup and domain networks. </li>
+                          <li> Deploy and configure Netgear routers and switches. </li>
+                          <li> Support all facets of application and network trouble ticket requests. </li>
+                          <li> 90% local travel with minimal direct supervision. </li>
+                      </ul>
+                  </div>
+
+                </li>
+            </ul>
+
+            <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested skill languages">
+                  <strong>Web Development (languages):</strong> 
+                   <span class="enumeration">PHP</span>  <span class="enumeration">Javascript - jQuery &amp; MEAN Stack</span>  <span class="enumeration">Perl</span>  <span class="enumeration">SQL</span>  <span class="enumeration">HTML</span>  <span class="enumeration">CSS</span> 
+              </li>
+                <li class="card-nested skill tools">
+                  <strong>Web Development (tools):</strong> 
+                   <span class="enumeration">Laravel Homestead</span>  <span class="enumeration">Laravel Forge</span>  <span class="enumeration">Composer</span>  <span class="enumeration">Packagist.org</span>  <span class="enumeration">Artisan</span>  <span class="enumeration">npm</span>  <span class="enumeration">bower</span>  <span class="enumeration">gulp</span>  <span class="enumeration">SequelPro/MySQL Workbench/RoboMongo</span> 
+              </li>
+                <li class="card-nested skill editors">
+                  <strong>Web Development (editors):</strong> 
+                   <span class="enumeration">PHP Storm</span>  <span class="enumeration">Sublime Text</span>  <span class="enumeration">nano</span> 
+              </li>
+                <li class="card-nested skill ccie #41076">
+                  <strong>Unified Communications (ccie #41076):</strong> 
+                   <span class="enumeration">Cisco Unified Communications</span>  <span class="enumeration">Asterisk</span>  <span class="enumeration">IVR</span>  <span class="enumeration">Auto-Dialer</span>  <span class="enumeration">SIP</span>  <span class="enumeration">MGCP</span>  <span class="enumeration">H323</span> 
+              </li>
+                <li class="card-nested skill desktop/server">
+                  <strong>Operating Systems (desktop/server):</strong> 
+                   <span class="enumeration">Linux (Ubuntu/Red Hat)</span>  <span class="enumeration">OSX</span>  <span class="enumeration">Windows</span> 
+              </li>
+            </ul>
+  
+            <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
+            
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Cresson, Pa, Main Campus</strong>,&nbsp;
+                      Mount Aloysious College
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Sep 1998 -  Dec 2001 
+                      </small>
+                    </p>
+                    <i></i>
+                    <div class="space-top labels">
+                       <span class="label label-keyword">CS104B - Visual Basic</span>  <span class="label label-keyword">CS120  - Introduction to Networking</span>  <span class="label label-keyword">CS228  - Client/Server Operating Systems</span>  <span class="label label-keyword">CS205A - Integrated Business Applications</span>  <span class="label label-keyword">CS226  - CS System Design</span>  <span class="label label-keyword">CS206B - Database Management Systems</span> 
+                    </div>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Certifications, and others</strong>,&nbsp;
+                      Cisco
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Sep 2007 -  Jul 2015 
+                      </small>
+                    </p>
+                    <i></i>
+                    <div class="space-top labels">
+                       <span class="label label-keyword">Cisco Certified Internetwork Expert - #41076</span>  <span class="label label-keyword">Cisco Certified Design Associate</span>  <span class="label label-keyword">ITL-Foundations</span>  <span class="label label-keyword">A+ Hardware/OS</span> 
+                    </div>
+                  </div>
+                </li>
+            </ul>
+
+
+
+
+            <h4 id="interests"> <span class="fa fa-lg fa-heart"></span> <span class="title">Interests</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <p>
+                    <strong>Music</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">Les Paul</span>
+                      <span class="label label-keyword">Stratocaster</span>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Mountain Biking</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">Trek Superfly</span>
+                      <span class="label label-keyword">Fully Rigid Single Speed</span>
+                  </div>
+                </li>
+            </ul>
+
+
+
+          </div>
+        </div>
+      </section>
+    </div>
+    
   <script type="text/javascript">
 /* <![CDATA[ */
 (function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
